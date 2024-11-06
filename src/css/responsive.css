@@ -1,0 +1,188 @@
+@media (min-width: 570px) and (max-width: 1280px) {
+
+    .container {
+        flex-direction: column-reverse;
+        padding-top: 105px;
+        margin-bottom: 120px;
+
+    }
+
+    .desc, .beneficios {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .desc h1 {
+        font-size: 50px;
+        margin: 140px 0 0 0;
+    }
+
+    .desc h4, .desc p, .desc button {
+        margin: 25px 0 0 0;
+    }
+
+    .desc .linha {
+        width: 180px;
+        left: 80px;
+    }
+
+    .desc p, .desempenho-secoes p {
+        width: 80%;
+        font-size: 20px;
+        text-align: justify;
+
+    }
+
+    .desc-img {
+        position: inherit;   
+    }
+
+    .relogio img {
+        width: 100%;
+    }
+
+    .relogio, .relogio p {
+        width: 100%;
+
+    }
+
+    .recursos, .recursos h4 {
+        font-size: 25px;
+        width: 100%;
+        margin: 30px 50px;
+
+    }
+    
+    .beneficios p {
+        padding: 65px 0;
+    }
+
+    .desempenho-secoes2 {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+@media (min-width: 300px) and (max-width: 569px) {
+
+    .left  {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right {
+        display: none;
+    }
+    .container {
+        flex-direction: column-reverse;
+        padding-top: 45px;
+        margin-bottom: 80px;
+
+    }
+    
+    .desc {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: inherit;
+    }
+
+    .desc-img img {
+        width: 100%;
+        padding-left: 60px;
+    }
+
+    .desc h1 {
+        width: 300px;
+        text-align: center;
+        margin: 80px 30px 0 30px;
+        font-size: 35px;
+
+    }
+
+    .desc .linha {
+        display: none;
+    }
+
+    .desc h4, .desc p, .desc button {
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+        margin: 25px 0 0 0;
+        padding: 0 35px 0 35px;
+    }
+
+    .desc p {
+        text-align: justify;
+    }
+
+    .desc button {
+        font-size: 12px;
+        width: 100px;
+        padding: 8px;
+    }
+    .relogio h1 {
+        font-size: 40px;
+    }
+
+    .relogio p, .relogio img {
+        padding: 10px;
+        width: 300px;
+    }
+
+    .recursos {
+        width: 100%;
+        font-size: 24px;
+        padding: 0 10px;
+    }
+
+    .beneficios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+
+    .beneficios div {
+        width: 100%;
+    }
+
+    .beneficios p {
+        font-size: 15px;
+        padding: 65px 40px;
+    }
+    
+    .desempenho {
+        padding: 0;
+    }
+
+    .desempenho-secoes h3, .desempenho-secoes h1 {
+        padding: 20px 25px;
+        font-size: 35px;
+    }
+
+    .desempenho-secoes p {
+        width: 100%;
+        padding: 0 25px;
+        text-align: justify;
+    }
+
+    .desempenho-secoes2 {
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 0 25px 100px 25px;
+    }
+
+
+    .footer1, .footer2 {
+        gap: 5px;
+        font-size: 12px;
+      }
+}
